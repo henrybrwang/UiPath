@@ -1,0 +1,58 @@
+{
+  "name": "Invoice data extraction using ML",
+  "description": "This process uses machine learning modules to read invoices (with different types of formats).\r\n\r\nThree packages needs to be installed to run this automation:\r\n\r\n- UiPath.DocumentUnderstanding.ML.Activities\r\n- UiPath.IntelligentOCR.Acitivities\r\n- UiPath.OmniPage.Activities\r\n\r\nPlease also note that a custom ApiKey may need to be created. Do this at http://platform.uipath.com/ under admin -> Licenses -> Robots & Services -> Document understanding",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.DocumentUnderstanding.ML.Activities": "[1.7.0]",
+    "UiPath.Excel.Activities": "[2.9.5]",
+    "UiPath.IntelligentOCR.Activities": "[4.13.0]",
+    "UiPath.Mail.Activities": "[1.9.5]",
+    "UiPath.OmniPage.Activities": "[1.7.1]",
+    "UiPath.System.Activities": "[20.10.4]",
+    "UiPath.UIAutomation.Activities": "[20.10.9]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.10.6.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "ab0f10be-93ad-4f53-b3da-9ead4965baba",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
